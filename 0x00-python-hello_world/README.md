@@ -56,13 +56,15 @@
 * **10. Linked list cycle**
   * [10-check_cycle.c](./10-check_cycle.c): C function that checks if a linked list
   contains a cycle.
+  * [lists.h](./lists.h): Header file containing definitions and prototypes for
+  all types and functions used in [linked_lists.c](./linked_lists.c) and
+  [10-check_cycle.c](./10-check_cycle.c).
+
   * Returns `0` if there is no cycle and `1` if there is.
-  * Helper files:
-    * [linked_lists.c](./linked_lists.c): C functions handling linked lists for testing
-    [10-check_cycle.c](./10-check_cycle.c) (provided by Holberton School).
-    * [lists.h](./lists.h): Header file containing definitions and prototypes for
-    all types and functions used in [linked_lists.c](./linked_lists.c) and
-    [10-check_cycle.c](./10-check_cycle.c).
+  * Test files:
+    * [10-linked_lists.c](./tests/10-linked_lists.c): C functions handling linked lists for testing
+    [10-check_cycle.c](./10-check_cycle.c) 
+    * [10-main.c](./tests/10-main.c): Main function to test the code
 
 * **11. Hello, write**
   * [100-write.py](./100-write.py): Python script that prints exactly `and that piece of
@@ -77,5 +79,5 @@
 
 * **13. ByteCode -> Python #1**
   * [102-magic_calculation.py](./103-magic_calculation.py): Python function matching exactly
-  a bytecode provided by Holberton School.
+  a bytecode provided.
 
