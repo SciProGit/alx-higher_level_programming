@@ -10,7 +10,7 @@
 
 * **1. My first toolbox!**
   * [1-calculation.py](./1-calculation.py): Python program that imports functions
-  from the file [calculator_1.py](./tests/1-calculator.py) and prints the result
+  from the file [calculator_1.py](./tests/calculator_1.py) and prints the result
   of the addition, subtraction, multiplication and division of `10` and `5`.
   * Output: `<a value> <operator> <b value> = <operation(a, b) value>` followed by a new line.
 
@@ -29,7 +29,7 @@
 
 * **4. Who are you?**
   * [4-hidden_discovery.py](./4-hidden_discovery.py): Python program that prints all the
-  names defined by the compiled module [hidden_4.pyc](./hidden_4.pyc).
+  names defined by the compiled module [hidden_4.pyc](./tests/hidden_4.pyc).
   * Output: One name per line in alphabetical order.
   * Names starting with `__` are not printed.
 
