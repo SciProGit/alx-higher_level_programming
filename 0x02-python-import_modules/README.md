@@ -29,7 +29,7 @@
 
 * **4. Who are you?**
   * [4-hidden_discovery.py](./4-hidden_discovery.py): Python program that prints all the
-  names defined by the compiled module `hidden_4.pyc`.
+  names defined by the compiled module [hidden_4.pyc](./hidden_4.pyc).
   * Output: One name per line in alphabetical order.
   * Names starting with `__` are not printed.
 
