@@ -11,4 +11,5 @@ def roman_to_int(roman_string):
                 count -= num_map[roman_string[i]]
             i += 1
         count += num_map[roman_string[i]]
-    return 0
+        return (count)
+    return (0)
